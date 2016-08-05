@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"/>
 
-    <TextView
+    <EditText
         android:id="@+id/a"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"/>
 		
-    <TextView
+    <EditText
         android:id="@+id/b"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"/>
 		
-    <TextView
+    <EditText
         android:id="@+id/c"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"/>
 		
-    <TextView
+    <EditText
         android:id="@+id/d"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginBottom="10dp"/>
 
-		<TextView
+		<EditText
 			android:id="@+id/e"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginBottom="10dp"/>
 
-		<TextView
+		<EditText
 			android:id="@+id/f"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
@@ -131,7 +131,7 @@
 		android:layout_height="wrap_content"
 		android:layout_marginBottom="10dp"/>
 
-	<TextView
+	<EditText
 		android:id="@+id/g"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
@@ -148,7 +148,7 @@
 	android:layout_height="wrap_content"
 	android:layout_marginBottom="10dp"/>
 
-<TextView
+<EditText
 	android:id="@+id/h"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -165,7 +165,7 @@
 	android:layout_height="wrap_content"
 	android:layout_marginBottom="10dp"/>
 
-<TextView
+<EditText
 	android:id="@+id/i"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -182,7 +182,7 @@
 	android:layout_height="wrap_content"
 	android:layout_marginBottom="10dp"/>
 
-<TextView
+<EditText
 	android:id="@+id/j"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -199,7 +199,7 @@
 	android:layout_height="wrap_content"
 	android:layout_marginBottom="10dp"/>
 
-<TextView
+<EditText
 	android:id="@+id/k"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -216,7 +216,7 @@
 	android:layout_height="wrap_content"
 	android:layout_marginBottom="10dp"/>
 
-<TextView
+<EditText
 	android:id="@+id/l"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -233,7 +233,7 @@
 	android:layout_height="wrap_content"
 	android:layout_marginBottom="10dp"/>
 
-<TextView
+<EditText
 	android:id="@+id/m"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -250,7 +250,7 @@
 	android:layout_height="wrap_content"
 	android:layout_marginBottom="10dp"/>
 
-<TextView
+<EditText
 	android:id="@+id/n"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -267,7 +267,7 @@
 	android:layout_height="wrap_content"
 	android:layout_marginBottom="10dp"/>
 
-<TextView
+<EditText
 	android:id="@+id/o"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
@@ -284,7 +284,7 @@
 	android:layout_height="wrap_content"
 	android:layout_marginBottom="10dp"/>
 
-<TextView
+<EditText
 	android:id="@+id/p"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"

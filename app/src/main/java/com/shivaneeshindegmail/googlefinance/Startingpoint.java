@@ -29,15 +29,13 @@ public class Startingpoint extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.startingpoint);
         final Button appllink= (Button) findViewById(R.id.btn);
-        final EditText name=(EditText) findViewById(R.id.txt);
+        final EditText name1=(EditText) findViewById(R.id.txt);
         final TextView out = (TextView)findViewById(R.id.out);
 
         appllink.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
-
-
-                final String name="APPL";
+                final String name=name1.getText().toString();
 
                 // Response received from the server
                 Response.Listener<String> responseListener= new Response.Listener<String>(){
