@@ -17,9 +17,21 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".Menu">
+            <intent-filter>
+                <action android:name="com.shivaneeshindegmail.googlefinance.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Startingpoint">
             <intent-filter>
                 <action android:name="com.shivaneeshindegmail.googlefinance.STARTINGPOINT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Graph">
+            <intent-filter>
+                <action android:name="com.shivaneeshindegmail.googlefinance.GRAPH" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -29,9 +41,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Display1">
+        <activity android:name=".Today">
             <intent-filter>
-                <action android:name="com.shivaneeshindegmail.googlefinance.DISPLAY1" />
+                <action android:name="com.shivaneeshindegmail.googlefinance.TODAY" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

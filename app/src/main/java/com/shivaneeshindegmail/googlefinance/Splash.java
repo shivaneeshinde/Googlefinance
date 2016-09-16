@@ -17,7 +17,7 @@ public class Splash extends Activity {
                 }catch (InterruptedException e){
                     e.printStackTrace();
                 }finally {
-                    Intent start=new Intent("com.shivaneeshindegmail.googlefinance.STARTINGPOINT");
+                    Intent start=new Intent("com.shivaneeshindegmail.googlefinance.MENU");
                     startActivity(start);
                 }
             }

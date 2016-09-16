@@ -12,7 +12,7 @@ import android.widget.ListView;
  */
 public class Menu extends ListActivity {
 
-    String classes[]={"startingpoint","Email","Data","OpenedClass"};
+    String classes[]={"Startingpoint","Graph","Today"};
 
     protected void onCreate(Bundle savedInstanceState){
 
@@ -24,7 +24,7 @@ public class Menu extends ListActivity {
         String cheese=classes[position];
         super.onListItemClick(l,v,position,id);
         try {
-            Class ourClass = Class.forName("com.shivaneeshindegmail.newboston." + cheese);
+            Class ourClass = Class.forName("com.shivaneeshindegmail.googlefinance." + cheese);
             Intent ourIntent = new Intent(Menu.this, ourClass);
             startActivity(ourIntent);
         }catch (ClassNotFoundException e){
