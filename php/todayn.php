@@ -20,31 +20,35 @@ $result_one = json_decode($result_one, true);
 
 $final_stock_result=$result_one;
 
- $response1 = array();
+ $response1["user"] = array();
 
     $response1["success"] = true; 
     foreach ($final_stock_result as $response)
 
 {
-    $response1["id"] =$response['id'];
-    $response1["t"] =$response['t'];
-    $response1["e"] =$response['e'];
-    $response1["l"] =$response['l'];
-    $response1["l_fix"] =$response['l_fix'];
-    $response1["l_cur"] =$response['l_cur'];
-    $response1["s"] =$response['s'];
-    $response1["ltt"] =$response['ltt'];
-    $response1["lt"] =$response['lt'];
-    $response1["lt_dts"] =$response['lt_dts'];
-    $response1["c"] =$response['c'];
-    $response1["c_fix"] =$response['c_fix'];
-    $response1["cp"] =$response['cp'];
-    $response1["cp_fix"] =$response['cp_fix'];
-    $response1["ccol"] =$response['ccol'];
-    $response1["pcls_fix"] =$response['pcls_fix'];
+   
+    $user=array();
+    $user["id"] =$response['id'];
+    $user["t"] =$response['t'];
+    $user["e"] =$response['e'];
+    $user["l"] =$response['l'];
+    $user["l_fix"] =$response['l_fix'];
+    $user["l_cur"] =$response['l_cur'];
+    $user["s"] =$response['s'];
+    $user["ltt"] =$response['ltt'];
+    $user["lt"] =$response['lt'];
+    $user["lt_dts"] =$response['lt_dts'];
+    $user["c"] =$response['c'];
+    $user["c_fix"] =$response['c_fix'];
+    $user["cp"] =$response['cp'];
+    $user["cp_fix"] =$response['cp_fix'];
+    $user["ccol"] =$response['ccol'];
+    $user["pcls_fix"] =$response['pcls_fix'];
+
+  array_push($response1["user"], $user); 
 }
 
-echo json_encode(array('user' => $response1));
+echo json_encode($response1);
 
  ?>
  
