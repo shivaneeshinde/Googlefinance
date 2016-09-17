@@ -22,11 +22,28 @@
         android:id="@+id/textView2" />
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f7f7f7"
+        android:text="Closed"
+        android:id="@+id/close" />
+
+    <TextView
         android:id="@+id/ltt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#f7f7f7"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f7f7f7"
+        android:text="Price"
+        android:id="@+id/price" />
 
     <TextView
         android:id="@+id/l"
@@ -36,11 +53,28 @@
         android:textColor="#f7f7f7"/>
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f7f7f7"
+        android:text="Profit"
+        android:id="@+id/profit" />
+
+    <TextView
         android:id="@+id/cp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#f7f7f7"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f7f7f7"
+        android:text="Percentage Profit"
+        android:id="@+id/pprofit" />
 
     <TextView
         android:id="@+id/cp_fix"

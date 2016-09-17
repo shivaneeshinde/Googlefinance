@@ -64,7 +64,7 @@ public class Today extends AppCompatActivity {
                 String cfix1 = c.getString(scfix);
 
                 //Importing TextView
-                final TextView l = (TextView)findViewById(R.id.lname);
+                final TextView l = (TextView)findViewById(R.id.l);
                 final TextView ltt = (TextView)findViewById(R.id.ltt);
                 final TextView cp = (TextView)findViewById(R.id.cp);
                 final TextView cp_fix = (TextView)findViewById(R.id.cp_fix);
